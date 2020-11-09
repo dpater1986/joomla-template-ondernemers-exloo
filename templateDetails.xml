@@ -7,7 +7,7 @@
 	<authorUrl>http://dennispater.com</authorUrl>
 	<copyright>Copyright© 2020-now</copyright>
 	<license>GNU/GPL</license>
-	<version>0.0.0</version>
+	<version>0.0.1</version>
 	<description>Joomla template voor de website "ondernemers-exloo.nl"</description>
 	<files>
 		<filename>index.php</filename>
