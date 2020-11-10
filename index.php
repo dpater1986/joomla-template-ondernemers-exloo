@@ -25,6 +25,9 @@
 					<?php if ($this->countModules('focus-picture')): ?>
 					<div id="focus-picture">
 						<jdoc:include type="modules" name="focus-picture" />
+						<div id="focus-text">
+							<jdoc:include type="modules" name="focus-text" />
+						</div>
 						<div id="focus-signup">
 							<a href="https://aanmelden.ondernemers-exloo.nl/" id="focus-signup-url" class="signup">Word nu lid</a>
 						</div>

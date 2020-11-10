@@ -23,6 +23,7 @@
 		<position>focus-picture</position>
 		<position>focus-blocks</position>
 		<position>navigation</position>
+		<position>focus-text</position>
 		<position>user4</position>
 		<position>footer</position>
 	</positions>
