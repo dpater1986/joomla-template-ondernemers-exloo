@@ -30,7 +30,7 @@
 						</div>
 					</div>
 					<?php endif ?>
-					<php if ($this->countModules('focus-blocks')): ?>
+					<?php if ($this->countModules('focus-blocks')): ?>
 					<div id="focus-blocks">
 						<jdoc:include type="modules" name="focus-blocks" />
 					</div>
