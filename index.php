@@ -11,7 +11,7 @@
         <body>
                 <div id="wrapper">
                         <div id="header">
-				<div id="nextname">
+				<div id="nav-wrap">
 					<div id="logo">
 						<a href="/" id="logo-url" class="ove-main-logo">Ondernemers vereniging Exloo</a>
 					</div>
