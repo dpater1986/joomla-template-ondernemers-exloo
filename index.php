@@ -29,7 +29,7 @@
 							<jdoc:include type="modules" name="focus-text" />
 						</div>
 						<div id="focus-signup">
-							<a href="https://aanmelden.ondernemers-exloo.nl/" id="focus-signup-url" class="signup">Word nu lid</a>
+							<a href="/word-nu-lid" id="focus-signup-url" class="signup">Word nu lid</a>
 						</div>
 					</div>
 					<?php endif ?>
