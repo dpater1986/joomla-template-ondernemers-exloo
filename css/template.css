@@ -1,0 +1,14 @@
+body {
+	margin: 0px;
+}
+
+#nav-wrap {
+	position: fixed;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+
