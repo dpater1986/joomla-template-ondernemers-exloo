@@ -11,15 +11,17 @@
         <body>
                 <div id="wrapper">
                         <div id="header">
-                                <div id="logo">
-					<a href="/" id="logo-url" class="ove-main-logo">Ondernemers vereniging Exloo</a>
+				<div id="nav-wrap">
+					<div id="logo">
+						<a href="/" id="logo-url" class="ove-main-logo">Ondernemers vereniging Exloo</a>
+					</div>
+                                	<div id="menu">
+						<nav role=navigation>
+							<jdoc:include type="modules" name="navigation" /> 
+						</nav>
+                        	        </div>
 				</div>
-                                <div id="menu">
-					<nav role=navigation>
-						<jdoc:include type="modules" name="navigation" /> 
-					</nav>
-                                </div>
-                        </div>
+			</div>
                         <div id="content">
                                 <div id="focus">
 					<?php if ($this->countModules('focus-picture')): ?>
