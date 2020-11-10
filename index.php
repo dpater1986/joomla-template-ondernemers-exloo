@@ -15,7 +15,7 @@
 						<a href="/" id="logo-url" class="ove-main-logo">Ondernemers vereniging Exloo</a>
 					</div>
                                 	<div id="menu">
-						<div class="top-nav">
+						<div class="topnav">
 							<jdoc:include type="modules" name="navigation" /> 
 						</div>
                         	        </div>
