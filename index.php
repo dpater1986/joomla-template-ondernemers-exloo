@@ -36,11 +36,14 @@
 					</div>
 					<?php endif ?>
                                 </div>
-
-                        </div>
-                        <jdoc:include type="modules" name="top" />
-                        <jdoc:include type="component" />
-                        <jdoc:include type="modules" name="footer" />
+				<div id="main">
+					<jdoc:include type="modules" name="top" />
+                        		<jdoc:include type="component" />
+				</div>
+			</div>
+			<div id="footer">
+                        	<jdoc:include type="modules" name="footer" />
+			</div>
                 </div>
         </body>
 </html>
