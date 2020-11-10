@@ -10,15 +10,15 @@
         </head>
         <body>
                 <div id="wrapper">
-                        <div id="header">
+                        <div id="header" class="container">
 				<div id="nav-wrap">
 					<div id="logo">
 						<a href="/" id="logo-url" class="ove-main-logo">Ondernemers vereniging Exloo</a>
 					</div>
                                 	<div id="menu">
-						<nav role=navigation>
+						<div class="top-nav">
 							<jdoc:include type="modules" name="navigation" /> 
-						</nav>
+						</div>
                         	        </div>
 				</div>
 			</div>
@@ -41,7 +41,7 @@
 					</div>
 					<?php endif ?>
                                 </div>
-				<div id="main">
+				<div id="main" class="container">
 					<jdoc:include type="modules" name="top" />
                         		<jdoc:include type="component" />
 				</div>
