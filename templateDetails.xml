@@ -20,8 +20,8 @@
 		<position>left</position>
 		<position>right</position>
 		<position>top</position>
-		<position>user1</position>
-		<position>user2</position>
+		<position>focus-picture</position>
+		<position>focus-blocks</position>
 		<position>user3</position>
 		<position>user4</position>
 		<position>footer</position>
