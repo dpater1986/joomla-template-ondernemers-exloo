@@ -18,6 +18,17 @@ body {
 	text-decoration: none;
 	font-size 17px;
 }
+.topnav li:hover {
+	background-color: #green;
+	color: black;
+}
+.topnav li:active {
+	background-color: #red;
+	color: #white;
+}
+.topnav .icon {
+	display: none;
+}
 
 @media screen and (min-width: 768px) {
 	.container {
