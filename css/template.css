@@ -25,7 +25,7 @@ body {
 	background-color: #green;
 	color: black;
 }
-.topnav li a:active {
+.topnav li.active a {
 	background-color: #red;
 	color: #white;
 }
