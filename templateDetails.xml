@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.5" type="template">
 	<name>Joomlaondernemerstemplate</name>
-	<creationDate>20.0.101-09</creationDate>
+	<creationDate>20.0.111-09</creationDate>
 	<author>DennisPater</author>
 	<authorEmail>d.pater1986@gmail.com</authorEmail>
 	<authorUrl>http://dennispater.com</authorUrl>
 	<copyright>Copyright© 2020-now</copyright>
 	<license>GNU/GPL</license>
-	<version>0.0.10</version>
+	<version>0.0.11</version>
 	<description>Joomla template voor de website "ondernemers-exloo.nl"</description>
 	<files>
 		<filename>index.php</filename>
