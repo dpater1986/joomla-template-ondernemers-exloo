@@ -9,6 +9,9 @@ body {
 	background-color: white;
 	overflow: hidden;
 }
+.topnav ul {
+	list-style: none
+}
 .topnav li a {
 	float: left;
 	display: block;
