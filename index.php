@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
         <head>
-                <jdoc:include type="head" />
+		<jdoc:include type="head" />
+	<script type="text/javaScript" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/burger-menu.js"></script>
                 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css" />
                 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css" />
                 <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/template.css" type="text/css" />
@@ -17,6 +18,9 @@
                                 	<div id="menu">
 						<div class="topnav">
 							<jdoc:include type="modules" name="navigation" /> 
+							<a href="javascript:void(0);" class="icon" onclick="burger-menu()">
+								     <i class="fa fa-bars"></i>
+						 	</a>
 						</div>
                         	        </div>
 				</div>
@@ -48,6 +52,6 @@
 			<div id="footer">
                         	<jdoc:include type="modules" name="footer" />
 			</div>
-                </div>
+		</div>
         </body>
 </html>
