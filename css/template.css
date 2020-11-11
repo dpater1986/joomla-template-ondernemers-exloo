@@ -22,12 +22,12 @@ body {
 	font-size 17px;
 }
 .topnav li a:hover {
-	background-color: #green;
+	background-color: green;
 	color: black;
 }
 .topnav li.active a {
-	background-color: #red;
-	color: #white;
+	background-color: red;
+	color: white;
 }
 .topnav .icon {
 	display: none;
